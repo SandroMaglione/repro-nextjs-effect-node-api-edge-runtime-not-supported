@@ -1,5 +1,6 @@
 import { Effect, pipe } from "effect";
-import { NextRequest, NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 
 export const config = {
   matcher: ["/((?!_next|api/auth).*)(.+)"],
